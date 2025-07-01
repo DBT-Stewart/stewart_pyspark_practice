@@ -1,0 +1,47 @@
+[
+  {
+    "employee_id": 101,
+    "name": "Alice",
+    "age": 29,
+    "gender": "F",
+    "salary": 52000,
+    "joining_date": "2021-03-15",
+    "active": true
+  },
+  {
+    "employee_id": 102,
+    "name": "Bob",
+    "age": 34,
+    "gender": "M",
+    "salary": 67000,
+    "joining_date": "2020-07-23",
+    "active": true
+  },
+  {
+    "employee_id": 103,
+    "name": "Charlie",
+    "age": 27,
+    "gender": "M",
+    "salary": 75000,
+    "joining_date": "2022-01-10",
+    "active": true
+  },
+  {
+    "employee_id": 104,
+    "name": "Diana",
+    "age": 41,
+    "gender": "F",
+    "salary": 82000,
+    "joining_date": "2018-11-05",
+    "active": false
+  },
+  {
+    "employee_id": 105,
+    "name": "Ethan",
+    "age": 38,
+    "gender": "M",
+    "salary": 88000,
+    "joining_date": "2017-05-20",
+    "active": true
+  }
+]

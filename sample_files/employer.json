@@ -1,0 +1,91 @@
+[
+  {
+    "employee_id": 101,
+    "name": "Alice",
+    "age": 29,
+    "gender": "F",
+    "department": {
+      "id": "D001",
+      "name": "HR"
+    },
+    "skills": ["Communication", "Recruitment", "MS Office"],
+    "salary": 52000,
+    "joining_date": "2021-03-15",
+    "active": true,
+    "performance": {
+      "2021": 3.8,
+      "2022": 4.2
+    }
+  },
+  {
+    "employee_id": 102,
+    "name": "Bob",
+    "age": 34,
+    "gender": "M",
+    "department": {
+      "id": "D002",
+      "name": "Finance"
+    },
+    "skills": ["Excel", "Accounting", "Budgeting"],
+    "salary": 67000,
+    "joining_date": "2020-07-23",
+    "active": true,
+    "performance": {
+      "2021": 4.5,
+      "2022": 4.7
+    }
+  },
+  {
+    "employee_id": 103,
+    "name": "Charlie",
+    "age": 27,
+    "gender": "M",
+    "department": {
+      "id": "D003",
+      "name": "IT"
+    },
+    "skills": ["Python", "Spark", "Databricks", "SQL"],
+    "salary": 75000,
+    "joining_date": "2022-01-10",
+    "active": true,
+    "performance": {
+      "2022": 4.3
+    }
+  },
+  {
+    "employee_id": 104,
+    "name": "Diana",
+    "age": 41,
+    "gender": "F",
+    "department": {
+      "id": "D002",
+      "name": "Finance"
+    },
+    "skills": ["Auditing", "Compliance"],
+    "salary": 82000,
+    "joining_date": "2018-11-05",
+    "active": false,
+    "performance": {
+      "2020": 4.1,
+      "2021": 4.0
+    }
+  },
+  {
+    "employee_id": 105,
+    "name": "Ethan",
+    "age": 38,
+    "gender": "M",
+    "department": {
+      "id": "D003",
+      "name": "IT"
+    },
+    "skills": ["Java", "System Design"],
+    "salary": 88000,
+    "joining_date": "2017-05-20",
+    "active": true,
+    "performance": {
+      "2021": 4.8,
+      "2022": 4.9
+    }
+  }
+]
