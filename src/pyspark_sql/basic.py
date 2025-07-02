@@ -6,4 +6,5 @@ csv_df.show()
 
 csv_df.createOrReplaceTempView("employees")
 
-spark.sql("SELECT Department, COUNT(*) as count FROM employees GROUP BY Department").show()
+csv_df_2 = spark.sql("SELECT Department, COUNT(*) as count FROM employees GROUP BY Department")
+csv_df_2.show()
