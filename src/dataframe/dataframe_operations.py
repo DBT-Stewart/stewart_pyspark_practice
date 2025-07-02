@@ -30,3 +30,24 @@ df.drop("Department").show()
 
 df.select("Age", "Department").distinct().show()
 
+
+from pyspark.sql.functions import *
+
+wc = spark.read.csv("../../sample_files/Employee-Q1.csv",header=True,inferSchema=True)
+wc.show()
+wc.printSchema()
+
+wc1 = wc.withColumn('salary', col('salary').cast('long'))
+# wc1 = wc.withColumn('salary', col('salary').cast('string'))
+wc1.show()
+wc1.printSchema()
+wc2 = wc.withColumn('salary', col('salary')*0.5)
+wc3 = wc.withColumn('avg_salary', col('salary')*0.5)
+wc2.show()
+wc3.show()
+wc4 = wc.withColumn('salary', col('salary')*0.5).withColumn('half_salary', col('salary')*0.5)
+wc4.show()
+wc4.printSchema()
+wc5 = wc.withColumn("gender",lit("unknown"))
+wc5.show()
+wc5.printSchema()
