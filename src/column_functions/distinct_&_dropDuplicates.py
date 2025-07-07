@@ -21,5 +21,6 @@ df.distinct().show()
 print("Original count:", df.count())
 print("Distinct count:", df.distinct().count())
 
+# 4. dropDuplicates()
 df.dropDuplicates(['department']).show()
 df.dropDuplicates(['name']).show()
