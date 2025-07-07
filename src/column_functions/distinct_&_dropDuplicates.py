@@ -1,9 +1,7 @@
 from pyspark.sql import SparkSession
 
-# Initialize Spark
 spark = SparkSession.builder.appName("DistinctExample").getOrCreate()
 
-# Sample data with duplicates
 data = [
     ("Stewart", "HR"),
     ("Jesus", "IT"),
@@ -22,3 +20,7 @@ df.distinct().show()
 # 3. Count before and after distinct
 print("Original count:", df.count())
 print("Distinct count:", df.distinct().count())
+
+# 4. dropDuplicates()
+df.dropDuplicates(['department']).show()
+df.dropDuplicates(['name']).show()
