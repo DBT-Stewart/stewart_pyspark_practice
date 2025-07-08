@@ -2,7 +2,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
 from pyspark.sql.functions import *
 
-spark = SparkSession.builder.appName("RowNumberExample").getOrCreate()
+spark = SparkSession.builder.appName("RankExample").getOrCreate()
 
 data = [("HR", "Stewart", 3000),
         ("IT", "Divakar", 3500),
